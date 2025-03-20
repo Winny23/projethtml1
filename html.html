@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layer cake page</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#home"> Home</a>
+          </li>
+          <li>
+            <a href="#about"> About </a>
+          </li>
+          <li>
+            <a href="#contact"> Contact</a>
+          </li>
+          <li>
+            <a href="#Travail"> Travail</a>
+          </li>
+          <li>
+            <a href="#cv"> CV</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <img src="/image/téléchargement.jpeg" alt="me" />
+      <p>
+        Nous confectionnons des layer cake <br />
+        Vous avez la possiblié de nous laisser vos commentaires <br />
+        Vous pouvez donner votre avis sur la vidéo suivante.
+      </p>
+    </section>
+    <section>
+      <ol>
+        <li>Gâteaux</li>
+        <ul>
+          <li>Anniversaire</li>
+          <li>Autres</li>
+        </ul>
+        <li>Cake</li>
+        <ul>
+          <li>Marbré</li>
+          <li>Simple</li>
+        </ul>
+        <li>Crêpe</li>
+        <ul>
+          <li>Sucré</li>
+          <li>Salée</li>
+        </ul>
+      </ol>
+    </section>
+    <section>
+      <video src="/vidéo/videoplayback.mp4" autoplay controls></video>
+    </section>
+    <section>
+      <form>
+        <label for="FullName">Full Name: </label>
+        <input type="text" name="FullName" /><br />
+        <label for="email">Email: </label>
+        <input type="email" name="email" /><br />
+        <label for="PhoneNumber">Phone Number: </label>
+        <input type="Number" name="PhoneNumber" /><br />
+        <label for="cv">Cv: </label>
+        <input type="file" name="cv" /><br />
+        <label for="Comment">Comment: </label>
+        <textarea name="Comment" aria-rowspan="5"></textarea><br />
+        <button type="submit">Send</button>
+      </form>
+    </section>
+    <section>
+      <!--Les tableaux dans le Html-->
+      <h3>Les tables</h3>
+      <table border="3">
+        <tr>
+          <th>Gâteaux</th>
+          <th>Cake</th>
+          <th>Crêpe</th>
+        </tr>
+        <tr>
+          <td>Anniversaire</td>
+          <td>Marbré</td>
+          <td>Sucré</td>
+        </tr>
+        <tr>
+          <td>Autres</td>
+          <td>Simple</td>
+          <td>Salée</td>
+        </tr>
+      </table>
+    </section>
+    <div>
+      <footer>
+        <p>&copy; Session 2025</p>
+      </footer>
+    </div>
+  </body>
+</html>
