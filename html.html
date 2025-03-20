@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Layer cake page</title>
+    <link rel="stylesheet" href="/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,7 +14,7 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="welcome">
         <ul>
           <li>
             <a href="#home"> Home</a>
@@ -34,14 +35,16 @@
       </nav>
     </header>
     <section>
-      <img src="/image/téléchargement.jpeg" alt="me" />
+      <img id="image1"
+       src="/image/téléchargement.jpeg" alt="me" />
       <p>
         Nous confectionnons des layer cake <br />
         Vous avez la possiblié de nous laisser vos commentaires <br />
         Vous pouvez donner votre avis sur la vidéo suivante.
       </p>
     </section>
-    <section>
+    <section id="about">
+      <h2>Nos actuels mets</h2>
       <ol>
         <li>Gâteaux</li>
         <ul>
@@ -60,11 +63,14 @@
         </ul>
       </ol>
     </section>
-    <section>
-      <video src="/vidéo/videoplayback.mp4" autoplay controls></video>
+    <div class="vido">
+        Ci-dessous une de nos tuto</div>
+    <section class="video">
+      <video id="video1"
+      src="/vidéo/videoplayback.mp4" autoplay controls></video>
     </section>
-    <section>
-      <form>
+    <section class="bordure">
+      <form >
         <label for="FullName">Full Name: </label>
         <input type="text" name="FullName" /><br />
         <label for="email">Email: </label>
@@ -80,7 +86,7 @@
     </section>
     <section>
       <!--Les tableaux dans le Html-->
-      <h3>Les tables</h3>GIT
+      <h3>Les tables</h3>
       <table border="3">
         <tr>
           <th>Gâteaux</th>
